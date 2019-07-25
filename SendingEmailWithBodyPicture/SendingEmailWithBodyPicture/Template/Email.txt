@@ -1,0 +1,14 @@
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+ 
+<p>Dear Receiver,</p>
+ 
+<p>According to the robot report, there are some files cannot be uploaded due to system error / invalid data.</p>
+ 
+<p>We have captured the screen for you and please help to review the error and upload the files manually.  After the files have been successfully uploaded, please click OK and let the robot continue its work:</p>
+
+<p>Thanks & Regards,</p>
+<p>Robot</p>

@@ -1,0 +1,14 @@
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+ 
+<p>Dear Receiver,</p>
+ 
+<p>According to the robot report, there are some files send to you.</p>
+ 
+<p>Please check the attachment FTE report file.</p>
+
+<p>Thanks & Regards,</p>
+<p>Robot</p>

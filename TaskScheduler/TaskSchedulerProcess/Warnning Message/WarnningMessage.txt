@@ -1,0 +1,2 @@
+$a =new-object -comobject wscript.shell
+$intAnswer = $a.popup("Please check the Template folder,Make sure everything is OK !",5,"Check Template File",0)

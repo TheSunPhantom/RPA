@@ -1,0 +1,30 @@
+Attribute VB_Name = "Edit_Links"
+Sub Edit_Links()
+    ThisWorkbook.UpdateLinks = xlUpdateLinksNever
+    Application.DisplayAlerts = Falses
+    ActiveWorkbook.ChangeLink Name:=ThisWorkbook.Sheets("Input Parameters").Range("B11").Value _
+        , NewName:=ThisWorkbook.Sheets("Input Parameters").Range("C11").Value _
+        , Type:=xlExcelLinks
+    
+    ActiveWorkbook.ChangeLink Name:=ThisWorkbook.Sheets("Input Parameters").Range("B12").Value _
+        , NewName:=ThisWorkbook.Sheets("Input Parameters").Range("C12").Value _
+        , Type:=xlExcelLinks
+		
+	ActiveWorkbook.ChangeLink Name:=ThisWorkbook.Sheets("Input Parameters").Range("B15").Value _
+        , NewName:=ThisWorkbook.Sheets("Input Parameters").Range("C15").Value _
+        , Type:=xlExcelLinks
+		 
+	ActiveWorkbook.ChangeLink Name:=ThisWorkbook.Sheets("Input Parameters").Range("B16").Value _
+        , NewName:=ThisWorkbook.Sheets("Input Parameters").Range("C16").Value _
+        , Type:=xlExcelLinks
+		 
+	ActiveWorkbook.ChangeLink Name:=ThisWorkbook.Sheets("Input Parameters").Range("B19").Value _
+        , NewName:=ThisWorkbook.Sheets("Input Parameters").Range("C19").Value _
+        , Type:=xlExcelLinks
+	
+	ActiveWorkbook.ChangeLink Name:=ThisWorkbook.Sheets("Input Parameters").Range("B20").Value _
+        , NewName:=ThisWorkbook.Sheets("Input Parameters").Range("C20").Value _
+        , Type:=xlExcelLinks 
+    
+	ThisWorkbook.Save
+End Sub
